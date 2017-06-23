@@ -16,14 +16,44 @@ body {
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
+  float: left;
+  padding: 10px;
+  position: relative;
 }
 
-figure {
-  margin: 0;
-}
 
 .film {
   width: 50%;
   margin: 40px auto;
+  border: 2px solid lightgrey;
+  position: relative;
+  padding:10px;
+  overflow: hidden;
+}
+
+.film-poster{
+  position: relative;
+  overflow: hidden;
+  float: left;
+  margin: 5px;
+  width: 35%;
+
+}
+
+i{
+  color: red;
+}
+
+.action-like{
+  float:right;
+  position: absolute;
+  bottom: 10px
+  right:10px
+}
+
+.action-watch-later{
+  position: absolute;
+  right: 10px;
+  top:10px;
 }
